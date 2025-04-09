@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.5.2.0" runtimeid="3.5.20.50" libversion="4.5.0.0" compiler="3.5.20.40" lmm="3.5.20.50" profile="CODESYS V3.5 SP20 Patch 5+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="assembly-station" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="FIO">
+        <Node name="FIO_iBaseAtPlace" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iBaseClamped" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iBasePosAtLimit" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iItemDetected" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iLidAtPlace" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iLidClamped" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iLidPosAtLimit" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iMovingX" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iMovingZ" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iPartLeaving" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_iReset" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oBasePosRaise" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oBasesConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oClampBase" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oClampLid" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oCounter" type="T_WORD" access="ReadWrite" />
+        <Node name="FIO_oGrab" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oLidPosRaise" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oLidsConveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oMoveX" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_oMoveZ" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
